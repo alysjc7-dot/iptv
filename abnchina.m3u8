@@ -1,39 +1,15 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-# قنوات عامة
-#EXTINF:-1 tvg-id="Teledunet" tvg-name="Teledunet" tvg-logo="https://example.com/logo1.png" group-title="General",Teledunet
-http://teledunet.com:8080/live/tdn/tdn/19959456.m3u8
+# قنوات خارجية (تعتبر كل قناة كجودة منفصلة)
+#EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=640x360
+http://het114a.4rouwanda-shop.store/live/918454578001/index.m3u8
 
-#EXTINF:-1 tvg-id="BeinSport1" tvg-name="Bein Sport 1" tvg-logo="https://example.com/logo2.png" group-title="Sports",Bein Sport 1
-http://135.125.109.73:9000/beinsport1_.m3u8
+#EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=854x480
+http://armorip.com/live/fouaduk24/23445667887654566/179946.m3u8
 
-#EXTINF:-1 tvg-id="TVClub" tvg-name="TV Club" tvg-logo="https://example.com/logo3.png" group-title="General",TV Club
+#EXT-X-STREAM-INF:BANDWIDTH=1500000,RESOLUTION=1280x720
 http://rhsbjv7k.tvclub.xyz/iptv/RL8MVW8UX8NNXK/6123/index.m3u8
 
-# قنوات رياضية
-#EXTINF:-1 tvg-id="BeinSportHD" tvg-name="Bein Sport HD" tvg-logo="https://example.com/logo4.png" group-title="Sports",Bein Sport HD
+#EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1920x1080
 http://cdnvine.com:8080/bn1hd/index.m3u8
-
-#EXTINF:-1 tvg-id="BeinSportSD" tvg-name="Bein Sport SD" tvg-logo="https://example.com/logo5.png" group-title="Sports",Bein Sport SD
-http://cdnvine.com:8080/bn1sd/index.m3u8
-
-# قنوات أفلام وترفيه
-#EXTINF:-1 tvg-id="Aflam1" tvg-name="Aflam 1" tvg-logo="https://example.com/logo6.png" group-title="Movies",Aflam 1
-https://top1new.newkso.ru/top1/aflam1/mono.m3u8
-
-# قنوات أخرى
-#EXTINF:-1 tvg-id="Dokko1" tvg-name="Dokko 1" tvg-logo="https://example.com/logo7.png" group-title="General",Dokko 1
-https://dokko1new.newkso.ru/dokko1/premium91/mono.m3u8
-
-#EXTINF:-1 tvg-id="ProIPTV" tvg-name="Pro IPTV" tvg-logo="https://example.com/logo8.png" group-title="General",Pro IPTV
-http://proiptv.tn:1234/live/roufa.hMakram70/1258896582/607.m3u8
-
-#EXTINF:-1 tvg-id="4KPlus" tvg-name="4K Plus" tvg-logo="https://example.com/logo9.png" group-title="General",4K Plus
-http://4kplus.info/live/NAJIBRABAT_478815/JIBcc8NP/114053.m3u8
-
-#EXTINF:-1 tvg-id="XxTV" tvg-name="XxTV" tvg-logo="https://example.com/logo10.png" group-title="General",XxTV
-http://xxtv.me/live/RedouanPalazzoloamico/GJdtI1f4R6/325803.m3u8
-
-#EXTINF:-1 tvg-id="ArmorIP" tvg-name="ArmorIP" tvg-logo="https://example.com/logo11.png" group-title="General",ArmorIP
-http://armorip.com/live/fouaduk24/23445667887654566/179946.m3u8
