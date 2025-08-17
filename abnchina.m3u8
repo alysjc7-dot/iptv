@@ -1,15 +1,26 @@
 #EXTM3U
 #EXT-X-VERSION:3
 
-# قنوات خارجية (تعتبر كل قناة كجودة منفصلة)
+# قناة 1 مع headers
 #EXT-X-STREAM-INF:BANDWIDTH=500000,RESOLUTION=640x360
+#EXTVLCOPT:http-referrer=http://example.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64)
 http://het114a.4rouwanda-shop.store/live/918454578001/index.m3u8
 
+# قناة 2 مع headers
 #EXT-X-STREAM-INF:BANDWIDTH=1000000,RESOLUTION=854x480
+#EXTVLCOPT:http-referrer=http://armorip.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Android 11; Mobile)
 http://armorip.com/live/fouaduk24/23445667887654566/179946.m3u8
 
+# قناة 3 مع headers
 #EXT-X-STREAM-INF:BANDWIDTH=1500000,RESOLUTION=1280x720
+#EXTVLCOPT:http-referrer=http://tvclub.xyz
+#EXTVLCOPT:http-user-agent=IPTVPlayer/1.0
 http://rhsbjv7k.tvclub.xyz/iptv/RL8MVW8UX8NNXK/6123/index.m3u8
 
+# قناة 4 مع headers
 #EXT-X-STREAM-INF:BANDWIDTH=2000000,RESOLUTION=1920x1080
+#EXTVLCOPT:http-referrer=http://cdnvine.com
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (X11; Linux x86_64)
 http://cdnvine.com:8080/bn1hd/index.m3u8
