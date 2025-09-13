@@ -1,0 +1,5 @@
+#EXTM3U
+#EXT-X-TARGETDURATION:1
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:1,
+http://fuego-iptv.net/play/live.php?mac=00:1A:79:4E:54:58&stream=114053&extension=m3u8
